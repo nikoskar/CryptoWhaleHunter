@@ -1,8 +1,8 @@
-import bs4
 import time
 import sys
 import requests
 from os.path import exists
+from bs4 import BeautifulSoup as bs
 
 script, filename = sys.argv
 
@@ -17,7 +17,7 @@ def main(filename):
     except Exception as e:
         print e
     else:
-        SoupData = bs4.BeautifulSoup(req.text, "html.parser")
+        SoupData = bs(req.text, "html.parser")
 
         #the data list represents the table as taken from the html code of
         #https://etherscan.io/txs
