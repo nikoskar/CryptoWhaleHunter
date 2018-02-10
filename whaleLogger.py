@@ -70,4 +70,5 @@ if __name__ == '__main__':
         raw_input("[+]If you are ready to find some whales press RETURN")
         while 1:
             main(filename)
+            #extract data from the source with a 15s time difference
             time.sleep(15)
