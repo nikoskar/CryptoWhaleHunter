@@ -1,6 +1,6 @@
 # CryptoWhaleHunter
 ### 
-Under Construction/ Python 2.7
+Under Construction/ Python 2.7/ This should not be used as it is against etherscan policy. Only for educational purposes
 ### 
 Tracking Ethereum Whales<br />
 ### 
