@@ -10,9 +10,7 @@ def main(filename):
     try:
         #send the request to the site and check for download errors with
         #raise_for_status()
-        #https://etherscan.io/txs is a personal preference. Other explorers
-        #will work just as fine
-        req = requests.get('https://etherscan.io/txs')
+        req = requests.get('your link here')
         req.raise_for_status()
     except Exception as e:
         print e
@@ -35,8 +33,7 @@ def main(filename):
     #this is optional and not necessary. Could be used for future data analysis
 
     whaleList = {}
-
-    #Time to spot some whales. You can change the condition to your preference
+    
     #I use 10K as a flag cause i have noticed that whales tend to split the big
     #amounts to 10-20K transactions and spread them to multiple wallets.
     for i in data:
@@ -63,7 +60,7 @@ if __name__ == '__main__':
     else:
         print "[+]Hello! Welcome to Whale Hunter!"
         time.sleep(3)
-        print "[+]This script traces crypto whales parsing info from etherscan.io"
+        print "[+]This script traces crypto whales parsing info from ##############"
         time.sleep(3)
         print "[+]You can terminate the script anytime by pressing CTRL-Z"
         time.sleep(3)
