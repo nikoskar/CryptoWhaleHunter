@@ -17,11 +17,7 @@ def main(filename):
     else:
         SoupData = bs(req.text, "html.parser")
 
-        #the data list represents the table as taken from the html code of
-        #https://etherscan.io/txs
-        #It's a list containing lists. Each nested list represents a row from the
-        #table. Every list has size = 7 and contains the following info:
-        #[TxHash, Block, Age, From, To, Value, TxFee]
+ 
         data =[]
         table = SoupData.tbody
         rows = table.find_all('tr')
