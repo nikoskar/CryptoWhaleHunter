@@ -1,6 +1,6 @@
 # CryptoWhaleHunter
 ### 
-Under Construction/ Python 2.7/Made for educational purpose only. Do not use it for other reasons.
+Under Construction/ Python 2.7/Made for educational purposes only. Do not use it for other reasons.
 ### 
 Tracking Ethereum Whales<br />
 ### 
